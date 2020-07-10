@@ -1,4 +1,4 @@
-package com.petclinic.petclinic.model;
+package model;
 
 public enum PetType {
 
