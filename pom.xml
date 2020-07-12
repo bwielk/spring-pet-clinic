@@ -40,8 +40,8 @@
 	</build>
 
 	<scm>
-		<developerConnection>scm:git:git@github.com:bwielk/spring-pet-clinic.git</developerConnection>
-		<tag>HEAD</tag>
+		<url>https://github.com/bwielk/spring-pet-clinic.git</url>
+		<connection>scm:git:https://github.com/bwielk/spring-pet-clinic.git</connection>
 	</scm>
 
 </project>
