@@ -14,7 +14,7 @@
 	</parent>
 	<groupId>com.pet-clinic</groupId>
 	<artifactId>pet-clinic</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<name>pet-clinic</name>
 	<description>Pet clinic project</description>
 
@@ -42,7 +42,7 @@
 	<scm>
 		<url>https://github.com/bwielk/spring-pet-clinic.git</url>
 		<connection>scm:git:https://github.com/bwielk/spring-pet-clinic.git</connection>
-	  <tag>pet-clinic-0.0.2</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 </project>
