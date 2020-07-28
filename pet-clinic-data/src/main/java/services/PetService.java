@@ -5,10 +5,7 @@ import model.Pet;
 
 import java.util.Set;
 
-public interface PetService {
-
-    Set<Pet> findAll(long id);
-    Pet findByName(String name);
+public interface PetService  extends CrudService<Pet, Long>{
+    Pet findByName(Owner owner);
     Pet findByOwner(Owner owner);
-    Pet create(Pet pet);
 }

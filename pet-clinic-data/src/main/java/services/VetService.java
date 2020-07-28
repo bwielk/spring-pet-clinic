@@ -5,11 +5,9 @@ import model.Vet;
 
 import java.util.Set;
 
-public interface VetService {
+public interface VetService extends CrudService<Owner, Long> {
 
-    Set<Vet> findAll(long id);
     Vet findByLastName(String lastName);
     Vet findByFirstName(String name);
-    Vet create(Vet owner);
 
 }
